@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Arts et Métiers engineer · School 42 developer</strong><br/>
-  Low-level C/C++ — looking for a first role in embedded &amp; systems software.
+  Low-level C/C++, looking for a first role in embedded and systems software.
 </p>
 
 <p align="center">
@@ -20,10 +20,10 @@
 
 I like understanding systems deeply, so I can design them **robustly and efficiently**. That's the thread that runs through everything below.
 
-- 🎓 **Dual background** — generalist engineer from **Arts et Métiers ParisTech**, then a full software education at **School 42 Paris**. Engineering rigour on one side, hands-on low-level development on the other.
-- ⚙️ **3000+ hours of software development** at 42: C and C++, software architecture, testing, continuous integration, documentation, and collaborative projects run with Git and sprints.
-- 🏭 **Real industrial experience** — during my end-of-studies internship I led the compliance audit of **150 machining machines**, redesigned a production line down to a **60% shorter cycle time**, and built the tooling that automated the audit reports and tracking dashboards.
-- 🔭 **Currently looking for** a first position in **C/C++ development**, ideally in embedded or systems environments — where architectural decisions have a direct, measurable effect on performance and maintainability.
+- 🎓 Generalist engineer from **Arts et Métiers ParisTech**, then a full software education at **School 42 Paris**. Engineering rigour on one side, hands-on low-level development on the other.
+- ⚙️ Over **3000 hours of software development** at 42: C and C++, software architecture, testing, continuous integration, documentation, and team projects run with Git and sprints.
+- 🏭 During my end-of-studies internship I led the compliance audit of **150 machining machines**, redesigned a production line down to a **60% shorter cycle time**, and built the tooling that automated the audit reports and tracking dashboards.
+- 🔭 I am looking for a first position in **C/C++ development**, ideally embedded or systems, where architectural decisions have a direct, measurable effect on performance and maintainability.
 
 ---
 
@@ -72,23 +72,23 @@ I like understanding systems deeply, so I can design them **robustly and efficie
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | **[ft_transcendence](https://github.com/acardona123/42_ft_transcendence)** | Full-stack web platform hosting Pong and Flappy Bird with tournaments, built on a microservice backend with 2FA, JWT, a WAF and Vault-managed secrets.                                                                    | Django · PostgreSQL · Docker · Nginx · JS |
 | **[Cub3D](https://github.com/acardona123/42_Cub3D)**                       | A Wolfenstein-style 3D engine in C. I owned the ray-casting maths and the modular architecture: isolated render/logic/input, clear interfaces, compile-time-configurable features.                                        | C · Ray casting · MiniLibX                |
-| **[Webserv](https://github.com/acardona123/42_webserv)**                   | An HTTP server written in C++ from the RFC up — non-blocking I/O with `poll`/`epoll`, raw sockets, request parsing, CGI.                                                                                                   | C++ · Sockets · epoll                     |
-| **[Minishell](https://github.com/acardona123/42_minishell)**               | A UNIX shell built from scratch in C — parsing, pipes, redirections, built-ins, and process/signal handling.                                                                                                              | C · Processes · Signals                   |
-| **[Inception](https://github.com/acardona123/42_Inception)**               | A multi-service infrastructure built from scratch — Nginx, WordPress and MariaDB, each container built from a base image rather than a pre-built one, wired together with Docker Compose, healthchecks and named volumes. | Docker · Nginx · WordPress · MariaDB      |
+| **[Webserv](https://github.com/acardona123/42_webserv)**                   | An HTTP server written in C++ from the RFC up: raw sockets, non-blocking I/O with `poll`/`epoll`, request parsing and CGI.                                                                                                   | C++ · Sockets · epoll                     |
+| **[Minishell](https://github.com/acardona123/42_minishell)**               | A UNIX shell built from scratch in C: parsing, pipes, redirections, built-ins, process and signal handling.                                                                                                              | C · Processes · Signals                   |
+| **[Inception](https://github.com/acardona123/42_Inception)**               | A multi-service infrastructure built from scratch. Nginx, WordPress and MariaDB, each container built from a base image rather than a pre-built one, wired together with Docker Compose, healthchecks and named volumes. | Docker · Nginx · WordPress · MariaDB      |
 | **[Killer Game](https://github.com/acardona123/killer_game)**              | An experiment in AI-only development: every line of code and documentation generated by AI models, with me acting purely as supervising engineer.                                                                         | Node.js · JS · AI workflows               |
 
 ---
 
 ## 🎓 Background
 
-**Arts et Métiers ParisTech** — Engineering degree, 2021
+**Arts et Métiers ParisTech**, Engineering degree, 2021
 Generalist engineer specialised in product design, admitted through CPGE PSI.
-*Flagship project: a digital twin of a combustion engine — sensor instrumentation, Matlab and FreeCAD modelling, and gap analysis between the real system and the model to drive a control loop.*
+*Flagship project: a digital twin of a combustion engine, covering sensor instrumentation, Matlab and FreeCAD modelling, and gap analysis between the real system and the model to drive a control loop.*
 
-**School 42 Paris** — Software development, since 2022
+**School 42 Paris**, Software development, since 2022
 Intensive peer-to-peer computer science programme, entry by competitive selection (25% admitted). 3000+ hours of development across C, C++, Python and web, with a constant focus on architecture, testing and documentation.
 
-**ACCOPLAST** — Development & Industrialisation Engineer (6-month internship, 2021)
+**ACCOPLAST**, Development & Industrialisation Engineer (6-month internship, 2021)
 Production optimisation and safety compliance in a 60-person manufacturer. Prototyped a new PVC production line (**−60% cycle time**), led the compliance audit of **150 machining machines**, ran the safety overhaul of a 40-worker workshop, and automated audit reporting and tracking dashboards.
 
 ---
@@ -100,15 +100,15 @@ Production optimisation and safety compliance in a 60-person manufacturer. Proto
 | [Libft](https://github.com/acardona123/42_libft)                        | C           | Rebuilding the standard library: memory, strings, linked lists |
 | [ft_printf](https://github.com/acardona123/42_ft_printf)                | C           | Variadic functions and output formatting from scratch          |
 | [get_next_line](https://github.com/acardona123/42_tester_get_next_line) | C           | Buffered reading and static state across calls                 |
-| Push_swap                                                               | C           | Sorting under a constrained instruction set — algorithmic cost |
+| Push_swap                                                               | C           | Sorting under a constrained instruction set, algorithmic cost |
 | Minitalk                                                                | C           | Inter-process communication with UNIX signals                  |
 | so_long / [Cub3D](https://github.com/acardona123/42_Cub3D)              | C           | 2D then 3D rendering, ray casting, engine architecture         |
 | Philosophers                                                            | C           | Threads, mutexes, and the dining philosophers deadlock         |
-| Minishell                                                               | C           | Parsing, process control, pipes, redirections, a real shell    |
+| [Minishell](https://github.com/acardona123/42_minishell)                | C           | Parsing, process control, pipes, redirections, a real shell    |
 | [C++ Modules](https://github.com/acardona123/42_Piscine_CPP)            | C++         | OOP, RAII, templates, containers, exceptions                   |
 | [Libasm](https://github.com/acardona123/42_libasm)                      | Assembly    | x86-64 registers, syscalls, the C calling convention           |
 | [Inception](https://github.com/acardona123/42_Inception)                | Docker      | Containers, volumes, networks, service isolation               |
-| Webserv                                                                 | C++         | Writing an HTTP server: sockets, parsing, the RFC              |
+| [Webserv](https://github.com/acardona123/42_webserv)                    | C++         | Writing an HTTP server: sockets, parsing, the RFC              |
 | [ft_transcendence](https://github.com/acardona123/42_ft_transcendence)  | JS / Python | Full-stack web, microservices, security, team workflow         |
 | [Embedded Pool](https://github.com/acardona123/42_embeded_pool)         | C           | Bare-metal programming on ATmega328p: UART, I²C, SPI           |
 
@@ -116,8 +116,8 @@ Production optimisation and safety compliance in a 60-person manufacturer. Proto
 
 ## 🌍 Beyond Code
 
-- 🗺️ **20+ countries explored**, including humanitarian missions — adaptability and cultural openness are not abstract to me.
-- 🏀🏆 **Unicycle basketball** — French champion, and competitor at the World Championships. Endurance, discipline, and a long tolerance for falling over before something works.
+- 🗺️ I have travelled in more than **20 countries**, including humanitarian missions, so adaptability and cultural openness are not abstract to me.
+- 🏀 **Unicycle basketball**: French champion, and competitor at the World Championships. It takes endurance, discipline, and a long tolerance for falling over before something works.
 
 ---
 
